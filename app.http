@@ -1,1 +1,8 @@
 POST https://localhost:3000/todos/
+###
+PUT https://localhost:3000/todos/1/
+Content-Type: application/json
+
+{
+    "status":"Done"
+}
